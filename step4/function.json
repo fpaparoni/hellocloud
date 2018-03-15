@@ -1,0 +1,36 @@
+{
+  "bindings": [
+    {
+      "name": "myTimer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "0 */5 * * * *"
+    },
+    {
+      "type": "documentDB",
+      "name": "documents",
+      "databaseName": "database",
+      "collectionName": "collection",
+      "connection": "hellocloud_DOCUMENTDB",
+      "direction": "in"
+    },
+    {
+      "type": "documentDB",
+      "name": "client",
+      "databaseName": "database",
+      "collectionName": "collection",
+      "connection": "hellocloud_DOCUMENTDB",
+      "direction": "in"
+    },
+    {
+      "type": "sendGrid",
+      "name": "message",
+      "apiKey": "SEND_GRID_KEY",
+      "to": "MY_",
+      "from": "federico.paparoni@gmail.com",
+      "subject": "Git push per te",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}
