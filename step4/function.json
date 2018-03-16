@@ -28,7 +28,7 @@
       "apiKey": "SEND_GRID_KEY",
       "to": "MY_EMAIL",
       "from": "MY_EMAIL",
-      "subject": "Git push per te",
+      "subject": "Git push for you",
       "direction": "out"
     }
   ],
