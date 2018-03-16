@@ -26,8 +26,8 @@
       "type": "sendGrid",
       "name": "message",
       "apiKey": "SEND_GRID_KEY",
-      "to": "MY_",
-      "from": "federico.paparoni@gmail.com",
+      "to": "MY_EMAIL",
+      "from": "MY_EMAIL",
       "subject": "Git push per te",
       "direction": "out"
     }
